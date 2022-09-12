@@ -12,23 +12,27 @@ To manage a database, sign in to https://www.odoo.com and access the `database m
 .. note::
    Make sure you are connected as the administrator of the database you want to manage.
 
-.. image:: online/dropdown-menu.png
-   :align: right
+A :guilabel:`gear icon` and an :guilabel:`upgrade button` (represented by an arrow pointing upwards)
+are available next to your database name.
+
+.. image:: online/gear-and-upgrade.png
+   :align: center
    :alt: Clicking on the gear icon opens the drop-down menu.
 
-Open the drop-down menu next to the database you want to manage by clicking on the gear icon.
+Clicking on the :guilabel:`upgrade button` allows you to :ref:`online/upgrade` your database while
+clicking on the :guilabel:`gear icon` displays a dropdown menu with several actions:
 
-Several actions are available:
-
-- :ref:`online/upgrade`
 - :ref:`online/duplicate`
 - :ref:`online/rename`
 - :ref:`online/download`
 - :ref:`online/domains`
 - :ref:`online/tags`
+- :ref:`online/share`
 - :ref:`online/delete`
 - :ref:`online/contact-support`
-- :ref:`online/users`
+- :ref:`online/view-access-logs`
+- :ref:`online/invite-users`
+- :ref:`online/remove-users`
 
 .. _online/upgrade:
 
@@ -36,8 +40,20 @@ Upgrade
 =======
 
 If you are *not* on the latest **Online version**, you should receive an invitation to :doc:`upgrade
-<../upgrade>` your database. A **Rolling Release button** on your database's main screen proposes an
-upgrade to the latest version (e.g., 13.0 to 15.1).
+<../upgrade>` your database. A **Rolling Release button**, represented by an arrow icon pointing up,
+on your database's main screen proposes an upgrade to the latest version (e.g., 14.0 to 15.1).
+
+.. image:: online/rolling-release-button.png
+   :align: center
+   :alt: Click on the rolling release button opens to proceed to the upgrade
+
+By clicking on :guilabel:`Upgrade Now`, you are redirected to your portal. Click on the upgrade icon
+located next to the settings gear wheel. Then, a new window opens where to select the version you
+target.
+
+.. image:: online/upgrade-your-db.png
+   :align: center
+   :alt: Select the upgraded version you target.
 
 .. important::
    - | **If your Odoo database's version is lower than the latest major release:**
@@ -89,8 +105,8 @@ Download instantly a ZIP file with a backup of the database.
 
 .. _online/domains:
 
-Domains
-=======
+Domain names
+============
 
 Configure custom domains to access the database via another URL.
 
@@ -103,6 +119,15 @@ Tags
 ====
 
 Add tags to sort your databases out. You can search the tags in the search bar.
+
+.. _online/share:
+
+Share
+=====
+
+The share feature is dedicated to the educational program. If you want to organize a course on Odoo,
+you can create a free database with your use case. Once done, share it with students so that they
+can practice. Click on :guilabel:`Create a course` to start.
 
 .. _online/delete:
 
@@ -131,23 +156,33 @@ implications of deleting a database:
 
 .. _online/contact-support:
 
-Contact Support
-===============
+Contact us
+==========
 
 Access the Odoo `support page <https://www.odoo.com/help>`_ with your database's details already
 pre-filled.
 
-.. _online/users:
+.. _online/view-access-logs:
 
-Invite / Remove Users
-=====================
+View Access Log
+===============
+
+From there, you can see all database actions taken by the Odoo staff on this database, typically as
+a result of requests received by our helpdesk, requested in the context of a quick start project, or
+necessary to maintain your service. It also includes significant customer actions.
+
+.. _online/invite-users:
+
+Invite Users
+============
 
 To invite users, fill out the email address of the new user and click on *Invite*. To add multiple
 users, click on *Add more users*.
 
-.. image:: online/invite-users.png
-   :align: center
-   :alt: Clicking on "Add more users" adds additional email fields.
+.. _online/remove-users:
+
+Remove Users
+============
 
 To remove users, select the users to remove and click on *Remove*.
 
