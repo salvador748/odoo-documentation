@@ -70,15 +70,12 @@ the subtotals between Seller Central and Odoo.
    that order totals differ by a few cents from that on Seller Central. Those differences can be
    resolved with a write-off when reconciling the payments in Odoo.
 
-.. _amazon/add-unsupported-marketplace:
+.. _amazon/add-new-marketplace:
 
-Add an unsupported marketplace
-==============================
+Add a new marketplace
+=====================
 
-Some Amazon Marketplaces, such as Amazon Brazil, are not created by default as they are not
-officially supported by Odoo but might be compatible with your seller account. These marketplaces
-can be added manually should you wish to use them. See :ref:`here <amazon/supported-marketplaces>`
-for the exhaustive list of natively supported marketplaces.
+Any new marketplace can be added manually.
 
 .. tip::
    To find out if a marketplace is eventually compatible, check the `Amazon Documentation
@@ -108,11 +105,6 @@ Amazon Accounts`. Open the account on which you wish to use the new marketplace,
 should confirm the success of the operation). Newly added marketplaces are automatically added to
 the list of synchronized marketplaces. If the new marketplace is not added to the list, it means
 that it is either incompatible or unavailable for your seller account.
-
-.. important::
-   As manually added marketplaces are not officially supported by Odoo, there is no guarantee that
-   adding one as described above will work, nor can this be considered as a bug when contacting Odoo
-   Support.
 
 .. seealso::
    - :doc:`features`
